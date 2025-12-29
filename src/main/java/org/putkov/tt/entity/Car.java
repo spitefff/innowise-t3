@@ -2,9 +2,9 @@ package org.putkov.tt.entity;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.putkov.tt.entity.state.CarState;
-import org.putkov.tt.entity.state.FinishedState;
-import org.putkov.tt.entity.state.WaitingState;
+import org.putkov.tt.state.CarState;
+import org.putkov.tt.state.FinishedState;
+import org.putkov.tt.state.WaitingState;
 import org.putkov.tt.exception.AuthoserviceException;
 
 import java.util.concurrent.Callable;

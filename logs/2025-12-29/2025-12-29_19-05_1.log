@@ -1,0 +1,14 @@
+17:34:21.806 [pool-2-thread-5] INFO  org.putkov.tt.entity.Storage - Took 1 parts from storage. Remaining: 95
+17:34:21.810 [pool-2-thread-5] INFO  putkov.tt.entity.state.RepairingState - Car 5 took parts from storage
+17:34:21.810 [pool-2-thread-5] INFO  putkov.tt.entity.state.RepairingState - Car 5 is being repaired in box 2
+17:34:22.806 [pool-2-thread-2] INFO  putkov.tt.entity.state.RepairingState - Car 2 finished repair and released box 1
+17:34:22.806 [pool-2-thread-2] INFO  org.putkov.tt.entity.Car - Car 2 finished lifecycle
+17:34:23.820 [pool-2-thread-5] INFO  putkov.tt.entity.state.RepairingState - Car 5 finished repair and released box 2
+17:34:23.820 [pool-2-thread-5] INFO  org.putkov.tt.entity.Car - Car 5 finished lifecycle
+19:05:08.594 [main] INFO  org.putkov.tt.entity.AuthoserviceStation - AuthoserviceStation initialized with 3 boxes and 100 parts
+19:05:08.596 [main] INFO  org.putkov.tt.entity.AuthoserviceStation - AuthoserviceStation initialized with 2 boxes and 10 parts
+19:05:08.637 [pool-2-thread-3] INFO  org.putkov.tt.entity.Car - Car 3 started lifecycle
+19:05:08.637 [pool-2-thread-1] INFO  org.putkov.tt.entity.Car - Car 1 started lifecycle
+19:05:08.637 [pool-2-thread-5] INFO  org.putkov.tt.entity.Car - Car 5 started lifecycle
+19:05:08.637 [pool-2-thread-4] INFO  org.putkov.tt.entity.Car - Car 4 started lifecycle
+19:05:08.637 [pool-2-thread-2] INFO  org.putkov.tt.entity.Car - Car 2 started lifecycle

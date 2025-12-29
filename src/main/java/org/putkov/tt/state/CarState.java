@@ -1,4 +1,4 @@
-package org.putkov.tt.entity.state;
+package org.putkov.tt.state;
 
 import org.putkov.tt.entity.Car;
 

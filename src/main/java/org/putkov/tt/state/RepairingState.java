@@ -1,4 +1,4 @@
-package org.putkov.tt.entity.state;
+package org.putkov.tt.state;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -6,7 +6,6 @@ import org.putkov.tt.entity.AuthoserviceStation;
 import org.putkov.tt.entity.Box;
 import org.putkov.tt.entity.Car;
 import org.putkov.tt.entity.Storage;
-import org.putkov.tt.exception.AuthoserviceException;
 
 import java.util.concurrent.TimeUnit;
 

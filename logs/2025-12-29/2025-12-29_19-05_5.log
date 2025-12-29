@@ -1,0 +1,11 @@
+19:05:10.678 [pool-2-thread-2] INFO  org.putkov.tt.entity.Car - Car 2 finished lifecycle
+19:05:10.677 [pool-2-thread-4] INFO  org.putkov.tt.entity.Car - Car 4 in state RepairingState
+19:05:10.680 [pool-2-thread-4] INFO  org.putkov.tt.state.RepairingState - Car 4 is being repaired...
+19:05:10.680 [pool-2-thread-4] INFO  org.putkov.tt.entity.Storage - Took 1 parts from storage. Remaining: 97
+19:05:10.680 [pool-2-thread-4] INFO  org.putkov.tt.state.RepairingState - Car 4 took parts from storage
+19:05:10.681 [pool-2-thread-4] INFO  org.putkov.tt.state.RepairingState - Car 4 is being repaired in box 3
+19:05:11.674 [pool-2-thread-1] INFO  org.putkov.tt.state.RepairingState - Car 1 finished repair and released box 2
+19:05:11.674 [pool-2-thread-1] INFO  org.putkov.tt.entity.Car - Car 1 finished lifecycle
+19:05:11.690 [pool-2-thread-5] INFO  org.putkov.tt.state.WaitingState - Car 5 took box 1
+19:05:11.690 [pool-2-thread-3] INFO  org.putkov.tt.state.WaitingState - Car 3: no free boxes, waiting...
+19:05:11.690 [pool-2-thread-5] INFO  org.putkov.tt.entity.Car - Car 5 in state RepairingState
