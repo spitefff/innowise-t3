@@ -1,0 +1,5 @@
+02:08:11.705 [pool-2-thread-1] INFO  putkov.tt.entity.state.RepairingState - Car 1 is being repaired in box 2
+02:08:12.699 [pool-2-thread-3] INFO  putkov.tt.entity.state.RepairingState - Car 3 finished repair and released box 1
+02:08:12.699 [pool-2-thread-3] INFO  org.putkov.tt.entity.Car - Car 3 finished lifecycle
+02:08:13.717 [pool-2-thread-1] INFO  putkov.tt.entity.state.RepairingState - Car 1 finished repair and released box 2
+02:08:13.717 [pool-2-thread-1] INFO  org.putkov.tt.entity.Car - Car 1 finished lifecycle
